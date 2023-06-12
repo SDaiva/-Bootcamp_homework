@@ -1,12 +1,1 @@
-user_selection = str(input("If you want to convert Celsius to Fahrenheit write C, if you want to convert Fahrenheit to Celsius write F:  "))
-if user_selection.upper() == "C":
-    celsius = int(input("Enter temperature in Celsius: "))
-    f = (celsius * 9/5) + 32
-    print("Converted temperature from ", celsius, " Celsius to Fahrenheit: ", f)
 
-elif user_selection.upper() == "F":
-    fahrenheit = int(input("Enter temperature in Fahrenheit: "))
-    c = (fahrenheit - 32) * 5/9
-    print("Converted temperature from ", fahrenheit, " Fahrenheit to Celsius: ", c)
-else:
-    print("Select C or F")
